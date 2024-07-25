@@ -1,7 +1,7 @@
 import axios from "axios";
 
-const fetchPhotos = async (query, page) => {
-  const response = await axios.get("https://api.unsplash.com/search/photos", {
+const fetchImages = async (query, page) => {
+  const response = await axios.get(`https://api.unsplash.com/search/photos`, {
     params: {
       query,
       page,
@@ -11,4 +11,4 @@ const fetchPhotos = async (query, page) => {
   return response.data;
 };
 
-export default fetchPhotos;
+export default fetchImages;

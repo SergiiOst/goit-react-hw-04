@@ -1,0 +1,13 @@
+.imagesContainer {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+  padding: 10px;
+  margin: 0 auto;
+  justify-content: center;
+  max-width: 1440px;
+}
+
+.imagesItem {
+  width: calc(100% - 48px) / 4;
+}

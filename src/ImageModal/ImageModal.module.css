@@ -1,0 +1,11 @@
+.closeModalBtn {
+  width: 30px;
+  height: 30px;
+  border-radius: 5px;
+  position: absolute;
+  padding: 5px;
+  top: 5px;
+  right: 5px;
+  cursor: pointer;
+  background-color: rgba(182, 227, 205, 40%);
+}
